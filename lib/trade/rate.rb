@@ -1,5 +1,4 @@
 class Rate
-  
   attr_accessor :from, :to, :conversion
 
   def initialize(xml)
@@ -18,6 +17,4 @@ class Rate
   def extract(xml, key)
     xml.search(key).first.content
   end
-
-
 end

@@ -1,5 +1,4 @@
 class Transaction
-  
   attr_accessor :store, :sku, :amount, :currency
 
   def initialize(row)
